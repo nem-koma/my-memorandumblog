@@ -21,6 +21,9 @@ body {
 	margin: 0;
 
 	overflow-x: hidden;
+
+	color: #131313;
+	background: #131313;
 }
 
 
@@ -144,6 +147,8 @@ input[type=checkbox]:checked ~ .main-wrapper {
 	}
 
 	& nav {
+		color: #ababab;
+
 		grid-column: 3;
 		opacity: 1;
 		transition: all 0.5s;
